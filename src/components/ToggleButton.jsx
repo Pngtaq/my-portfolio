@@ -10,14 +10,14 @@ export default function ToggleButton() {
 
   return (
     <button
-      className={`relative w-11.5 h-6.5 rounded-full transition-colors duration-300 ease-in-out ${
+      className={` focus:ring-2 focus:ring-blue-400 relative w-6.5 md:w-11.5 h-6.5 rounded-full transition-colors duration-300 ease-in-out ${
         isDarkMode ? "bg-gray-500" : "bg-gray-300"
       }`}
       onClick={toggleDarkMode}
     >
       <div
-        className={`absolute top-1 left-1 w-4.5 h-4.5 rounded-full bg-white shadow-md transition-transform duration-300 ease-in-out flex items-center justify-center ${
-          isDarkMode ? "translate-x-5" : "translate-x-0"
+        className={` absolute top-1 left-1 w-4.5 h-4.5 rounded-full bg-white shadow-md transition-transform duration-300 ease-in-out flex items-center justify-center ${
+          isDarkMode ? "translate-x-0 md:translate-x-5" : "translate-x-0"
         }`}
       >
         {isDarkMode ? (

@@ -38,7 +38,7 @@ export default function MyImage() {
             Cutie
           </p>
 
-          <div className="flex gap-2 mt-5 flex-wrap">
+          <div className="flex gap-2 mt-5 flex-wrap pr-1">
             <button className="bg-black text-white px-2 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium flex-1  justify-center">
               <GithubIcon /> <span>Github</span>
             </button>
