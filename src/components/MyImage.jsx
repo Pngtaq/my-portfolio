@@ -39,14 +39,14 @@ export default function MyImage() {
           </p>
 
           <div className="flex gap-2 mt-5 flex-wrap pr-1">
-            <button className="bg-black text-white px-2 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium flex-1  justify-center">
+            <button className="bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center">
               <GithubIcon /> <span>Github</span>
             </button>
-            <button className="text-gray px-2 md:px-9 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200  justify-center">
+            <button className="text-gray px-1.5 sm:px-9 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200  justify-center">
               <MailIcon />
               <span>Send Email</span>
             </button>
-            <button className="text-gray px-6 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200 flex-1 justify-center min-w-1/2">
+            <button className="text-gray px-6 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200 justify-center w-full sm:w-auto ">
               <Download className="w-4 h-4" />
               <span>Download Resume</span>
             </button>
