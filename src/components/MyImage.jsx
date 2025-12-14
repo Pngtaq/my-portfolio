@@ -35,7 +35,7 @@ export default function MyImage() {
 
           <p className="text-[12px] md:text-base  tracking-wide mt-1.5 md:mt-2 gap-x-14">
             Software Engineer <span className="text-gray-400 text-lg">\</span>{" "}
-            Cutie
+            Cutie lang
           </p>
 
           <div className="flex gap-2 mt-5 flex-wrap pr-1">

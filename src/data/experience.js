@@ -1,44 +1,44 @@
 // experienceData.js
 export const experiences = [
   {
-    title: "Principal AI Engineer",
-    company: "Standard Chartered",
+    title: "BS Computer Science",
+    company: "System Technology Institute",
     year: "2025",
     active: true,
   },
   {
-    title: "AI Ops Engineer",
-    company: "Centre of Excellence for GenAI, Cambridge",
+    title: "Complete Guide Flutter Course",
+    company: "Maximilian Schwarzmüller",
     year: "2025",
   },
   {
-    title: "Senior Full-Stack Developer",
-    company: "Core Technology, Cambridge",
+    title: "Ultimate Next.js Course",
+    company: "JS Mastery Pro",
     year: "2024",
   },
   {
-    title: "Software Engineering Lead",
-    company: "PocketDevs",
+    title: "Web Development Bootcamp",
+    company: "Dr. Angela Yu",
+    year: "2024",
+  },
+  {
+    title: "Ultimate React Course",
+    company: "Jonas Schedmedtmann",
+    year: "2024",
+  },
+  {
+    title: "Python Pro Bootcamp",
+    company: "Dr. Angelu Yu",
+    year: "2023",
+  },
+  {
+    title: "Complete Javascript Course",
+    company: "Jonas Schedmedtmann",
     year: "2022",
-  },
-  {
-    title: "Lead Application Developer",
-    company: "Bluewind Asia",
-    year: "2021",
-  },
-  {
-    title: "Software Engineer",
-    company: "GCM",
-    year: "2020",
-  },
-  {
-    title: "BS Information Technology",
-    company: "University of San Carlos",
-    year: "2019",
   },
   {
     title: "Hello World! 👋🏻",
     company: "Wrote my first line of code",
-    year: "2015",
+    year: "2023",
   },
 ];
