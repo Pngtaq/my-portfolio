@@ -1,14 +1,13 @@
 export default function GithubIcon() {
   return (
     <svg
-      className="w-5 h-5"
+      className="w-5 h-5 fill-white dark:fill-black"
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
       viewBox="0,0,256,256"
     >
       <g
-        fill="#ffffff"
         fillRule="nonzero"
         stroke="none"
         strokeWidth="1"

@@ -10,7 +10,7 @@ export default function ToggleButton() {
 
   return (
     <button
-      className={`border-2 border-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 relative w-5.5  sm:w-11.5 h-5.5 sm:h-7 rounded-full transition-colors duration-300 ease-in-out ${
+      className={`border-2 border-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 relative w-6.5  sm:w-11.5 h-6.5 sm:h-7 rounded-full transition-colors duration-300 ease-in-out ${
         isDarkMode ? "bg-gray-500" : "bg-gray-300"
       }`}
       onClick={toggleDarkMode}

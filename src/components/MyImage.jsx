@@ -8,7 +8,7 @@ import { Download } from "lucide-react";
 
 export default function MyImage() {
   return (
-    <section className="mb-8 dark">
+    <section className="mb-8">
       <div className="flex gap-4 md:gap-6 items-center bg-primary dark:bg-primary-dark">
         <img
           src="/images/me.jpg"
@@ -28,7 +28,7 @@ export default function MyImage() {
           </div>
           <div className="flex items-center gap-1">
             <LocationIcon />
-            <span className="truncate text-[14px] text-gray-800 tracking-wide font-medium">
+            <span className="truncate text-[14px] text-gray-800 dark:text-white tracking-wide font-medium">
               Metro Manila, Philippines
             </span>
           </div>
@@ -39,8 +39,8 @@ export default function MyImage() {
           </p>
 
           <div className="flex gap-2 mt-5 flex-wrap pr-1">
-            <button className="transform transition duration-200 hover:-translate-y-0.5 bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center">
-              <GithubIcon /> <span>Github</span>
+            <button className="transform transition duration-200 hover:-translate-y-0.5 bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center dark:bg-white dark:text-black">
+              <GithubIcon className="dark:text-black" /> <span>Github</span>
             </button>
             <button className="transform transition duration-200 hover:-translate-y-0.5 text-gray px-1.5 sm:px-9 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200  justify-center">
               <MailIcon />

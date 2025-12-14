@@ -1,7 +1,7 @@
 import { BriefcaseBusiness } from "lucide-react";
 export default function About() {
   return (
-    <section className="border border-gray-300 rounded-lg px-4 py-4">
+    <section className="border border-gray-300 rounded-xl px-4 py-4">
       <div className="flex items-center gap-x-2 pb-2">
         <BriefcaseBusiness className="w-4 h-4 " strokeWidth={1} />
         <h3 className="font-bold text-lg">About</h3>
