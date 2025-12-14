@@ -1,5 +1,9 @@
 @import "tailwindcss";
-
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
   --font-geist: "Geist", sans-serif;
+  --color-primary: #ffffff;
+  --color-primary-dark: #000000;
+  --color-text-primary: #000000;
+  --color-text-primary-dark: #ffffff;
 }

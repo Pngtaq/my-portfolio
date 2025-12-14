@@ -8,8 +8,8 @@ import { Download } from "lucide-react";
 
 export default function MyImage() {
   return (
-    <section className="mb-8 ">
-      <div className="flex gap-4 md:gap-6 items-center">
+    <section className="mb-8 dark">
+      <div className="flex gap-4 md:gap-6 items-center bg-primary dark:bg-primary-dark">
         <img
           src="/images/me.jpg"
           alt="Raison Salvador"
@@ -39,14 +39,14 @@ export default function MyImage() {
           </p>
 
           <div className="flex gap-2 mt-5 flex-wrap pr-1">
-            <button className="bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center">
+            <button className="transform transition duration-200 hover:-translate-y-0.5 bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center">
               <GithubIcon /> <span>Github</span>
             </button>
-            <button className="text-gray px-1.5 sm:px-9 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200  justify-center">
+            <button className="transform transition duration-200 hover:-translate-y-0.5 text-gray px-1.5 sm:px-9 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200  justify-center">
               <MailIcon />
               <span>Send Email</span>
             </button>
-            <button className="text-gray px-6 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200 justify-center w-full sm:w-auto ">
+            <button className="transform transition duration-200 hover:-translate-y-0.5 text-gray px-6 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200 justify-center w-full sm:w-auto flex-initial md:flex-2 ">
               <Download className="w-4 h-4" />
               <span>Download Resume</span>
             </button>
