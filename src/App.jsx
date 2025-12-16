@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Hobby from "./components/Hobby";
@@ -32,6 +33,7 @@ function App() {
           <RecentCertification />
           <Recommendation />
         </div>
+        <Contact />
         <Footer />
       </div>
     </div>

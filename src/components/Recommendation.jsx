@@ -27,8 +27,8 @@ export default function Recommendation() {
         </div>
       </div>
 
-      <div className="pt-10">
-        <div className="absolute bottom-4 md:bottom-10 left-4 flex gap-x-1.5">
+      <div>
+        <div className="absolute bottom-6 md:bottom-13 left-4 flex gap-x-1.5">
           <div className=" h-1.5 w-1.5 bg-gray-300 rounded-full" />
           <div className=" h-1.5 w-1.5 bg-gray-300 rounded-full" />
           <div className=" h-1.5 w-1.5 bg-gray-300 rounded-full" />

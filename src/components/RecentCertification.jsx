@@ -14,19 +14,19 @@ export default function RecentCertification() {
         </a>
       </div>
       <div className="space-y-2">
-        <div className="bg-gray-100 px-2 py-2 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
+        <div className="bg-gray-100 px-2 py-1.5 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
           <p className="text-[0.75rem] font-medium">Huawei Developer Expert</p>
           <p className="text-[0.7rem] font-light">Huawei</p>
         </div>
-        <div className="bg-gray-100 px-2 py-2 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
+        <div className="bg-gray-100 px-2 py-1.5 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
           <p className="text-[0.75rem] font-medium">Huawei Developer Expert</p>
           <p className="text-[0.7rem] font-light">Huawei</p>
         </div>
-        <div className="bg-gray-100 px-2 py-2 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
+        <div className="bg-gray-100 px-2 py-1.5 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
           <p className="text-[0.75rem] font-medium">Huawei Developer Expert</p>
           <p className="text-[0.7rem] font-light">Huawei</p>
         </div>
-        <div className="bg-gray-100 px-2 py-2 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
+        <div className="bg-gray-100 px-2 py-1.5 rounded-lg hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
           <p className="text-[0.75rem] font-medium">Huawei Developer Expert</p>
           <p className="text-[0.7rem] font-light">Huawei</p>
         </div>
