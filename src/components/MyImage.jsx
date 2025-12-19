@@ -43,17 +43,28 @@ export default function MyImage() {
           </p>
 
           <div className="flex gap-2 mt-5 flex-wrap pr-1">
-            <button className="transform transition duration-200 hover:-translate-y-0.5 bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center dark:bg-white dark:text-black">
+            <a
+              href="https://github.com/Pngtaq"
+              target="_blank"
+              className="transform transition duration-200 hover:-translate-y-0.5 bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center dark:bg-white dark:text-black"
+            >
               <GithubIcon className="dark:text-black" /> <span>Github</span>
-            </button>
-            <button className="transform transition duration-200 hover:-translate-y-0.5 text-gray px-1.5 sm:px-9 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200  justify-center">
+            </a>
+            <a
+              href="mailto:raisonsalvador0@gmail.com"
+              className="transform transition duration-200 hover:-translate-y-0.5 text-gray px-1.5 sm:px-9 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200  justify-center"
+            >
               <MailIcon />
               <span>Send Email</span>
-            </button>
-            <button className="transform transition duration-200 hover:-translate-y-0.5 text-gray px-6 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200 justify-center w-full sm:w-auto flex-initial md:flex-2 ">
+            </a>
+            <a
+              href="/My_resume (1).pdf"
+              target="_blank"
+              className="transform transition duration-200 hover:-translate-y-0.5 text-gray px-6 py-1.5 rounded-lg text-[12px] flex items-center gap-1 font-medium border border-gray-200 justify-center w-full sm:w-auto flex-initial md:flex-2 "
+            >
               <Download className="w-4 h-4" />
               <span>Download Resume</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
