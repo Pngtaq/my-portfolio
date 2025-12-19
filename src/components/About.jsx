@@ -1,7 +1,13 @@
 import { BriefcaseBusiness } from "lucide-react";
+import { motion } from "motion/react";
 export default function About() {
   return (
-    <section className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333]">
+    <motion.section
+      initial={{ y: 24, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
+      className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333] transition-colors duration-500"
+    >
       <div className="flex items-center gap-x-2 pb-2">
         <BriefcaseBusiness className="w-4 h-4 " strokeWidth={1} />
         <h3 className="font-bold text-lg">About</h3>
@@ -27,6 +33,6 @@ export default function About() {
           cutting-edge technology.
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

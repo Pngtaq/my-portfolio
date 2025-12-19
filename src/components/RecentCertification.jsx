@@ -2,7 +2,7 @@ import { BadgeCheck, ChevronRight } from "lucide-react";
 
 export default function RecentCertification() {
   return (
-    <section className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333]">
+    <section className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333] transition-colors duration-500">
       <div className="flex items-center justify-between pb-3">
         <div className="flex items-center gap-x-2">
           <BadgeCheck className="w-3.5 h-3.5 outline-black" strokeWidth={1.5} />

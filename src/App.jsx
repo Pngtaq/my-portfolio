@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import RecentCertification from "./components/RecentCertification";
 import Recommendation from "./components/Recommendation";
 import TechStack from "./components/TechStack";
-
+import { MotionConfig, stagger, motion } from "motion/react";
 function App() {
   return (
     <div className="dark:bg-primary-dark dark:text-white min-h-screen font-geist">
@@ -20,20 +20,44 @@ function App() {
             <About />
             <TechStack />
           </div>
-          <div className="lg:col-span-1 space-y-2">
+          <motion.div
+            initial={{ y: 25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, ease: "easeInOut", delay: 0.1 }}
+            className="lg:col-span-1 space-y-2 "
+          >
             <MyQuote />
             <Experience />
-          </div>
+          </motion.div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
-          <Hobby />
-          <Projects />
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-          <RecentCertification />
-          <Recommendation />
-        </div>
-        <Contact />
+        <MotionConfig>
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-3 gap-2"
+            initial={{ y: 25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, ease: "easeInOut", delay: 0.2 }}
+          >
+            <Hobby />
+            <Projects />
+          </motion.div>
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 gap-2"
+            initial={{ y: 25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, ease: "easeInOut", delay: 0.3 }}
+          >
+            <RecentCertification />
+            <Recommendation />
+          </motion.div>
+          <motion.div
+            initial={{ y: 25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
+          >
+            <Contact />
+          </motion.div>
+        </MotionConfig>
+
         <Footer />
       </div>
     </div>

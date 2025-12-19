@@ -3,7 +3,7 @@ import ProjectsTag from "./ui/ProjectsTag";
 
 export default function Projects() {
   return (
-    <section className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333] col-span-2">
+    <section className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333] col-span-2 transition-colors duration-500">
       <div className="flex items-center justify-between pb-3">
         <div className="flex items-center gap-x-2">
           <LayoutTemplate className="w-4 h-4" strokeWidth={1} />

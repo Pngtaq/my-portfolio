@@ -3,12 +3,16 @@ import GithubIcon from "./svg/GithubIcon";
 import LocationIcon from "./svg/LocationIcon";
 import MailIcon from "./svg/MailIcon";
 import ToggleButton from "./ToggleButton";
-
 import { Download } from "lucide-react";
-
+import { motion } from "motion/react";
 export default function MyImage() {
   return (
-    <section className="mb-8">
+    <motion.section
+      className="mb-8"
+      initial={{ y: 24, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
+    >
       <div className="flex gap-4 md:gap-6 items-center bg-primary dark:bg-primary-dark">
         <img
           src="/images/me.jpg"
@@ -53,6 +57,6 @@ export default function MyImage() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
