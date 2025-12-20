@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import RecentCertification from "./components/RecentCertification";
 import Recommendation from "./components/Recommendation";
 import TechStack from "./components/TechStack";
-import { MotionConfig, stagger, motion } from "motion/react";
+import { MotionConfig, motion } from "motion/react";
 function App() {
   return (
     <div className="dark:bg-primary-dark dark:text-white min-h-screen font-geist">
