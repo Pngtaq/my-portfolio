@@ -9,11 +9,12 @@ export default function Hobby() {
 
       <div className="text-sm space-y-3">
         <p>
-          When not writing code, I focus on learning about emerging
-          technologies, minimalism, and startup culture.
+          When not writing code, I dive into books and e-learnings on
+          productivity and the hidden forces that shape our world.
         </p>
         <p>
-          I share my knowledge through content creation and community building.
+          I focus on uncovering principles that drive personal growth and
+          success, aiming to align with deeper truths for greater potential.
         </p>
       </div>
     </section>

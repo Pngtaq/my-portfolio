@@ -14,23 +14,24 @@ export default function About() {
       </div>
       <div className="text-sm space-y-5 leading-relaxed ">
         <div>
-          I'm a full-stack software engineer specializing in developing
-          solutions with JavaScript, Python, and PHP. I work on projects
-          including building modern web applications, mobile apps, search engine
-          optimization, digital marketing, and making code tutorials.
+          As a full-stack software engineer specializing in JavaScript, Python,
+          and Dart, I focus on developing seamless, scalable, and modern
+          applications. When I'm not coding, I immerse myself in books and
+          e-learnings on productivity and the hidden forces that shape our
+          world. I aim to apply both technical expertise and personal growth
+          insights to create innovative solutions.
         </div>
         <div>
-          I've helped startups and MSMEs grow and streamline their processes
-          through software solutions. I've also built a community of over
-          200,000 developers sharing knowledge and mentorship.
+          I design and build AI‑powered full stack applications that automate
+          workflows and launch modern web experiences faster. I’ve shipped
+          production‑ready tools for fitness, government, and documentation
+          platforms using technologies like Next.js, TypeScript, and MongoDB.​
         </div>
         <div>
-          Lately, I've been diving deeper into the world of artificial
-          intelligence, focusing on integrating AI tools and techniques into
-          modern applications. My work now includes developing AI-powered
-          solutions, creating intelligent applications, and leveraging
-          generative AI to optimize development workflows and deliver
-          cutting-edge technology.
+          Right now, I’m learning Dart and Flutter to build polished,
+          high-performance mobile applications while also studying AI more
+          deeply to understand how intelligent systems work and how to apply
+          them effectively.​
         </div>
       </div>
     </motion.section>
