@@ -1,34 +1,12 @@
-export default function ProjectsTag() {
+export default function ProjectsTag(props) {
+  const { projectName, description, projectLink } = props;
   return (
-    <>
-      <div className="border p-2 border-gray-300 dark:border-[#333] rounded-lg space-y-1">
-        <h4 className="font-semibold text-sm">ECCD Government System</h4>
-        <p className="text-xs font-thin">Web app to help to exercise</p>
-        <span className="text-[0.73rem] font-light rounded-lg bg-gray-100 px-1.5 py-1 dark:bg-black tracking-wide">
-          workoutai.vercel.app
-        </span>
-      </div>
-      <div className="border p-2 border-gray-300 dark:border-[#333] rounded-lg space-y-1">
-        <h4 className="font-semibold text-sm">MCS Accounting</h4>
-        <p className="text-xs font-thin">Web app to help to exercise</p>
-        <span className="text-[0.73rem] font-light rounded-lg bg-gray-100 px-1.5 py-1 dark:bg-black tracking-wide">
-          workoutai.vercel.app
-        </span>
-      </div>
-      <div className="border p-2 border-gray-300 dark:border-[#333] rounded-lg space-y-1">
-        <h4 className="font-semibold text-sm">Workout AI</h4>
-        <p className="text-xs font-thin">Web app to help to exercise</p>
-        <span className="text-[0.73rem] font-light rounded-lg bg-gray-100 px-1.5 py-1 dark:bg-black tracking-wide">
-          workoutai.vercel.app
-        </span>
-      </div>
-      <div className="border p-2 border-gray-300 dark:border-[#333] rounded-lg space-y-1">
-        <h4 className="font-semibold text-sm">Devcuments</h4>
-        <p className="text-xs font-thin">Web app to help to exercise</p>
-        <span className="text-[0.73rem] font-light rounded-lg bg-gray-100 px-1.5 py-1 dark:bg-black tracking-wide">
-          workoutai.vercel.app
-        </span>
-      </div>
-    </>
+    <div className="border p-2 border-gray-300 dark:border-[#333] rounded-lg space-y-1 hover:-translate-y-0.5 duration-300 hover:shadow-[0_10px_20px_-5px_rgba(0,0,0,0.1)] ease-in-out transition-all">
+      <h4 className="font-semibold text-sm">{projectName}</h4>
+      <p className="text-xs font-thin">{description}</p>
+      <span className="text-[0.73rem] font-light rounded-lg bg-gray-100 px-1.5 py-1 dark:bg-black tracking-wide">
+        {projectLink}
+      </span>
+    </div>
   );
 }

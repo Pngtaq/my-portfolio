@@ -2,7 +2,7 @@ import { Users, Link, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section className="p-3 grid grid-cols-4 border border-gray-300 rounded-lg gap-x-4 transition-colors duration-500">
+    <section className="p-3 grid grid-cols-4 border border-gray-300 rounded-lg gap-x-4 transition-colors duration-500 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] hover:transition-shadow">
       <div className="font-medium space-y-3">
         <p className="text-xs flex items-center gap-x-2">
           <Users className="w-3 h-3" /> <span>A member of</span>
