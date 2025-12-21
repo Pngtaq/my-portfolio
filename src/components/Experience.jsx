@@ -3,7 +3,7 @@ import ExperienceTag from "./ui/ExperienceTag";
 import { BriefcaseBusiness } from "lucide-react";
 export default function Experience() {
   return (
-    <section className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333] transition-colors duration-500 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] hover:transition-shadow">
+    <section className="border border-gray-300 rounded-xl px-4 py-4 dark:bg-[#111] dark:border-[#333] duration-500 hover:duration-200 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] hover:-translate-y-0.5 ease-in-out transition-all">
       <div className="flex items-center gap-x-2 pb-2">
         <BriefcaseBusiness className="w-4 h-4 " strokeWidth={1} />
         <h3 className="font-bold text-lg">Courses \ Bootcamps</h3>
