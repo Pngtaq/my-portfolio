@@ -3,8 +3,9 @@ import CertificateAndProjectsPageContainer from "../components/CertificateAndPro
 import { ArrowLeft } from "lucide-react";
 import { certificates } from "../data/certificates";
 import CertificatePageTag from "../components/ui/CertificatePageTag";
-
-export default function ProjectsPage() {
+import { useTheme } from "../hooks/useTheme";
+export default function CertificatePage() {
+  useTheme();
   return (
     <CertificateAndProjectsPageContainer>
       <div className="flex items-center gap-x-4 pb-7">

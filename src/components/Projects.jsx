@@ -16,7 +16,7 @@ export default function Projects() {
       </div>
 
       <div className="grid grid-cols-2 gap-2">
-        {projects.map((project, i) => (
+        {projects.slice(0, 4).map((project, i) => (
           <ProjectsTag {...project} key={i} />
         ))}
       </div>
