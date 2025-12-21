@@ -4,29 +4,21 @@ export const frontend = [
   "React",
   "Next.js",
   "Tailwind",
-  "SCSS",
-  "Styled Components",
   "Vite",
+  "Flutter",
+  "Styled Components",
+  "SCSS",
   "Webpack",
   "ESLint",
   "Prettier",
 ];
 
-export const backend = [
-  "Node.js",
-  "Python",
-  "Java",
-  "PHP",
-  "Express.js",
-  "NestJS",
-  "FastAPI",
-];
+export const backend = ["Node.js", "Python", "Express.js", "NextJS", "FastAPI"];
 
 export const developerTools = [
   "Git",
   "Github",
   "Gitlab",
-  "BitBucket",
   "VS Code",
   "Android Studio",
 ];

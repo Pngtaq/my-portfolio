@@ -48,7 +48,7 @@ export default function MyImage() {
               target="_blank"
               className="transform transition duration-200 hover:-translate-y-0.5 bg-black text-white px-1.5 py-1.5 rounded-lg text-[12px] flex flex-1 items-center gap-1 font-medium sm:flex-1  justify-center dark:bg-white dark:text-black"
             >
-              <GithubIcon className="dark:text-black" /> <span>Github</span>
+              <GithubIcon isForDark={false} /> <span>Github</span>
             </a>
             <a
               href="mailto:raisonsalvador0@gmail.com"
