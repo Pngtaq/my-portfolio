@@ -13,7 +13,7 @@ export default function MyImage() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
     >
-      <div className="flex gap-4 md:gap-6 items-center bg-primary dark:bg-primary-dark">
+      <div className="flex gap-4 md:gap-6 items-center bg-primary dark:bg-primary-dark ">
         <img
           src="/images/me.jpg"
           alt="Raison Salvador"
