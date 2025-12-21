@@ -2,7 +2,7 @@ import { Users, Link, Mail, Download, ChevronRight } from "lucide-react";
 import GithubIcon from "./svg/GithubIcon";
 export default function Contact() {
   return (
-    <section className="p-3 grid grid-cols-4 border border-gray-300 rounded-lg gap-x-4 transition-colors duration-500 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] hover:transition-shadow">
+    <section className="p-3 grid grid-cols-1 gap-4 md:grid-cols-4 border border-gray-300 rounded-lg transition-colors duration-500 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] hover:transition-shadow">
       <div className="font-medium space-y-3">
         <p className="text-xs flex items-center gap-x-2">
           <Users className="w-3 h-3" /> <span>A member of</span>
@@ -51,7 +51,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="text-[9px] font-medium space-y-2">
-        <div className="py-1.5 px-2 rounded-lg border border-gray-300">
+        <div className="py-1.5 px-2 rounded-lg border border-gray-300 hover:-translate-y-0.5 ease-in-out transition-transform duration-300">
           <p className="flex items-center gap-x-2">
             <GithubIcon isForDark={true} />
             <span>Github</span>
@@ -61,7 +61,7 @@ export default function Contact() {
             <ChevronRight className="h-3.5 w-3.5 font-thin" strokeWidth={1.5} />
           </div>
         </div>
-        <div className="py-1.5 px-2 rounded-lg border border-gray-300">
+        <div className="py-1.5 px-2 rounded-lg border border-gray-300 hover:-translate-y-0.5 ease-in-out transition-transform duration-300">
           <p className="flex items-center gap-x-2">
             <Mail className="h-3.5 w-3.5 font-thin" strokeWidth={1.5} />
             <span>Email</span>
@@ -71,7 +71,7 @@ export default function Contact() {
             <ChevronRight className="h-3.5 w-3.5 font-thin" strokeWidth={1.5} />
           </div>
         </div>
-        <div className="py-1.5 px-2 rounded-lg border border-gray-300">
+        <div className="py-1.5 px-2 rounded-lg border border-gray-300 hover:-translate-y-0.5 ease-in-out transition-transform duration-300">
           <p className="flex items-center gap-x-2">
             <Download className="h-3 w-3 font-thin" strokeWidth={1.5} />
             <span>Resume</span>

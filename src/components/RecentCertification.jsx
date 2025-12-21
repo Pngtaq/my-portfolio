@@ -15,8 +15,8 @@ export default function RecentCertification() {
         </a>
       </div>
       <div className="space-y-2">
-        {certificates.map((certificate) => (
-          <CertificationTag {...certificate} />
+        {certificates.map((certificate, i) => (
+          <CertificationTag {...certificate} key={i} />
         ))}
       </div>
     </section>
