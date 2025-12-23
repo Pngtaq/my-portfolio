@@ -1,14 +1,15 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
-import Hobby from "./components/Hobby";
-import MyImage from "./components/MyImage";
-import MyQuote from "./components/MyQuote";
-import Projects from "./components/Projects";
-import RecentCertification from "./components/RecentCertification";
-import Recommendation from "./components/Recommendation";
-import TechStack from "./components/TechStack";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import Experience from "./components/Experience.jsx";
+import Footer from "./components/Footer.jsx";
+import Hobby from "./components/Hobby.jsx";
+import MyImage from "./components/MyImage.jsx";
+import MyQuote from "./components/MyQuote.jsx";
+import Projects from "./components/Projects.jsx";
+import RecentCertification from "./components/RecentCertification.jsx";
+import Recommendation from "./components/Recommendation.jsx";
+import TechStack from "./components/TechStack.jsx";
+
 import { MotionConfig, motion } from "motion/react";
 function App() {
   return (

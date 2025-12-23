@@ -10,12 +10,13 @@ export default function Experience() {
       </div>
       <div className="relative space-y-5">
         <div className="absolute left-1.75 top-1 h-full w-px bg-gray-200 dark:bg-gray-800" />
-        {experiences.map(({ title, company, year, active }) => (
+        {experiences.map(({ title, company, year, active }, i) => (
           <ExperienceTag
             title={title}
             company={company}
             year={year}
             active={active}
+            key={i}
           />
         ))}
       </div>
