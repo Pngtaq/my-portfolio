@@ -1,4 +1,6 @@
 import { Users, Link, Mail, Download, ChevronRight } from "lucide-react";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link as RouterLink } from "react-router-dom";
 import GithubIcon from "./svg/GithubIcon";
 export default function Contact() {
   return (
@@ -24,18 +26,33 @@ export default function Contact() {
           <Link className="w-2.5 h-2.5" /> <span>Social Links</span>
         </p>
         <div className="text-[10px] font-medium space-y-1">
-          <div className="border rounded-lg border-gray-300 px-3 py-2 flex gap-x-2 items-center hover:-translate-y-0.5 ease-in-out transition-transform duration-300">
-            <Link className="h-3.5 w-3.5" />
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border rounded-lg border-gray-300 px-3 py-2 flex gap-x-2 items-center hover:-translate-y-0.5 ease-in-out transition-transform duration-300"
+          >
+            <FaFacebookF size={15} />
             <span>Facebook</span>
-          </div>
-          <div className="border rounded-lg border-gray-300 px-3 py-2 flex gap-x-2 items-center hover:-translate-y-0.5 ease-in-out transition-transform duration-300">
-            <Link className="h-3.5 w-3.5" />
+          </a>
+          <a
+            href="https://x.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border rounded-lg border-gray-300 px-3 py-2 flex gap-x-2 items-center hover:-translate-y-0.5 ease-in-out transition-transform duration-300"
+          >
+            <FaTwitter size={15} />
             <span>Twitter</span>
-          </div>
-          <div className="border rounded-lg border-gray-300 px-3 py-2 flex gap-x-2 items-center hover:-translate-y-0.5 ease-in-out transition-transform duration-300">
-            <Link className="h-3.5 w-3.5" />
-            <span>Tiktok</span>
-          </div>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border rounded-lg border-gray-300 px-3 py-2 flex gap-x-2 items-center hover:-translate-y-0.5 ease-in-out transition-transform duration-300"
+          >
+            <FaInstagram size={15} />
+            <span>Instagram</span>
+          </a>
         </div>
       </div>
       <div className="space-y-3">
