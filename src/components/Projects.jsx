@@ -16,7 +16,7 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         {projects.slice(0, 4).map((project, i) => (
           <ProjectsTag {...project} key={i} />
         ))}

@@ -3,8 +3,10 @@ import CertificateAndProjectsPageContainer from "../components/CertificateAndPro
 import { ArrowLeft } from "lucide-react";
 import { projects } from "../data/projects";
 import CertificatePageTag from "../components/ui/CertificatePageTag";
+import { useTheme } from "../hooks/useTheme";
 
 export default function ProjectsPage() {
+  useTheme();
   return (
     <CertificateAndProjectsPageContainer>
       <div className="flex items-center gap-x-4 pb-7">
@@ -15,7 +17,7 @@ export default function ProjectsPage() {
         <h1 className="text-2xl font-bold">All Projects</h1>
       </div>
 
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         {projects.map((project, index) => (
           <CertificatePageTag
             key={index}

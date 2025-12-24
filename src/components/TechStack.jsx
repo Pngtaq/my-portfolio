@@ -2,6 +2,7 @@ import { FlaskConical, ChevronRight } from "lucide-react";
 import TechStackTag from "./ui/TechStackTag";
 import { backend, developerTools, frontend } from "../data/techStack";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 export default function TechStack() {
   return (
     <motion.section
@@ -15,10 +16,10 @@ export default function TechStack() {
           <FlaskConical className="w-3.5 h-3.5" strokeWidth={1} />
           <h3 className="font-bold text-lg">Tech Stack</h3>
         </div>
-        <a className="flex items-center text-xs">
+        <Link to="/techstack" className="flex items-center text-xs">
           <span className="pr-1">View All</span>
           <ChevronRight className="w-3 h-3" strokeWidth={1} />
-        </a>
+        </Link>
       </div>
       <div className="space-y-4">
         <div className="space-y-2">

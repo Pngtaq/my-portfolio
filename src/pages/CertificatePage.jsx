@@ -4,6 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { certificates } from "../data/certificates";
 import CertificatePageTag from "../components/ui/CertificatePageTag";
 import { useTheme } from "../hooks/useTheme";
+import Footer from "../components/Footer";
 export default function CertificatePage() {
   useTheme();
   return (
@@ -16,7 +17,7 @@ export default function CertificatePage() {
         <h1 className="text-2xl font-bold">All Certifications</h1>
       </div>
 
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         {certificates.map((cert, index) => (
           <CertificatePageTag
             key={index}
